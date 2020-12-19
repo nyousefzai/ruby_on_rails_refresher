@@ -1,0 +1,9 @@
+version: "3"
+services:
+  db:
+    image: "postgres:latest"
+    container_name: "flight"
+    env_file:
+      - ./.env
+    ports:
+      - "54320:5432"
