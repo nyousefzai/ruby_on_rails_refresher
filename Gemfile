@@ -23,6 +23,7 @@ gem 'nokogiri', '1.10.10'
 
 #fast json 
 gem 'fast_jsonapi'
+gem 'rubocop'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
